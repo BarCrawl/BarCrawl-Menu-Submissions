@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BarCrawl Bar's Menu Submission</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="JavaScript/loginScreen.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+</head>
+<body class="jumbotron">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">BarCrawl</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="Home.html">Home</a></li>
+            <li><a href="LoginPage.html">LogIn</a></li>
+            <li><a href="UploadDocuments.html">Upload Documents</a></li>
+            <li><a href="SearchDrinks.html">Search Drinks</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h3>Login</h3>
+    <p>Please enter the Login Credentials for you Bar</p>
+</div>
+
+
+<div id="id01">
+
+
+
+    <form class="modal-content animate" action="/action_page.php">
+
+
+
+
+        <label><b>Username</b></label>
+
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+
+        <label><b>Password</b></label>
+
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <a href="https://www.google.com/" class="btn btn-info" role="button">LOGIN</a>
+
+        <input type="checkbox" checked="checked"> Remember me
+
+
+
+        <div class="container" style="background-color:#f1f1f1">
+
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+
+            <span class="psw">Forgot <a href="#">password?</a></span>
+
+
+            <p>
+
+            <h6>Need Help? Contact Us:</h6><a href="mailto:bar.crawl.dev@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a>
+
+            </p>
+        </div>
+    </form>
+
+</div>
+</body>
+</html>
